@@ -1,0 +1,23 @@
+# pragma once
+
+/**
+ * This header should be included by all files of this module,
+ * as it automatically includes most files needed.
+ *
+ * All classes and free-form functions that can be used by other modules,
+ * (e.g. when defined in headers in the include folder)
+ * need to use the $$ModuleNameCaps$$_API macro.
+ *
+ * Example:
+ * class $$ModuleNameCaps$$_API MyClass { ... };
+ * struct $$ModuleNameCaps$$_API MyComponent { ... };
+ * $$ModuleNameCaps$$_API void MyFunc();
+ */
+
+#ifdef EXPORT_$$ModuleNameCaps$$_MODULE
+    #define $$ModuleNameCaps$$_API  __declspec(dllexport)
+#else
+    #define $$ModuleNameCaps$$_API  __declspec(dllimport)
+#endif
+
+#include "ModulithPreCompiledHeader.h"

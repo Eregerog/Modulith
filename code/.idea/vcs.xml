@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/extern/PhysX" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/extern/assimp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/extern/crossguid" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/extern/glfw" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/extern/glm" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/extern/spdlog" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/extern/yaml-cpp" vcs="Git" />
+  </component>
+</project>

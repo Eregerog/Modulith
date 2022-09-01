@@ -1,0 +1,13 @@
+name: Shooter
+guid: f4091da1-55d3-4da2-bab5-683b544ec50a
+description: A prototype of a shooter game, built on top of the strategy game
+version: 1.0.0
+dependencies:
+    - module: Core
+      version: 1.0.0
+    - module: Renderer
+      version: 1.0.0
+    - module: Physics
+      version: 1.0.0
+    - module: Game
+      version: 1.0.0

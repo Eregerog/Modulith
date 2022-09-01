@@ -1,0 +1,34 @@
+#pragma once
+
+#include "$$ModuleName$$Module.h"
+
+// TODO for User: Don't forget to manually register this component in the $$ModuleName$$Module.cpp file
+
+struct $$ModuleNameCaps$$_API $$ComponentName$$ {
+    // Add public fields if this is a data component or ignore if this is a tag component
+};
+
+$$BeginIf_Serializer$$
+namespace modulith{
+    template<>
+    struct Serializer<$$ComponentName$$> {
+
+        // TODO for User: Don't forget to manually register this serializer in the $$ModuleName$$Module.cpp file once implemented
+
+        [[nodiscard]] static $$ComponentName$$ Construct() {
+            // TODO for User: This should construct your component with default values
+            return $$ComponentName$$();
+        }
+
+        [[nodiscard]] static SerializedObject Serialize(const $$ComponentName$$& component) {
+            // TODO for User: This should create a SerializedObject that represents all the data in your component
+            return SerializedObject();
+        }
+
+        [[nodiscard]] static std::optional<$$ComponentName$$> TryDeserialize(const SerializedObject& so) {
+            // TODO for User: This should parse the serialized object and construct your component from the values, if possible
+            return std::nullopt;
+        }
+    };
+}
+$$EndIf_Serializer$$

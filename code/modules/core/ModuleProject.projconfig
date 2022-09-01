@@ -1,0 +1,8 @@
+info:
+  name: Core
+  guid: 9b352561-bf7b-43f3-9b70-8f094864b19b
+  description: ""
+  authors: Daniel Götz
+  version: 1.0.0
+  initializeFunctionOverride: ""
+  shutdownFunctionOverride: ""

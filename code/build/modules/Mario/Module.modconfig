@@ -1,0 +1,15 @@
+name: Mario
+guid: 6cb881fd-b569-4dc4-acf5-df52abeb5fdc
+description: Replaces the player with mario
+version: 1.0.0
+dependencies:
+    - module: Core
+      version: 1.0.0
+    - module: Renderer
+      version: 1.0.0
+    - module: Physics
+      version: 1.0.0
+    - module: Game
+      version: 1.0.0
+    - module: Shooter
+      version: 1.0.0

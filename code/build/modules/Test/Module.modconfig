@@ -1,0 +1,7 @@
+name: Test
+guid: 0454089b-908e-4579-b8c9-dd0777bfdd50
+description: Enter a description here...
+authors: ""
+version: 1.0.0
+initializeFunctionOverride: ""
+shutdownFunctionOverride: ""

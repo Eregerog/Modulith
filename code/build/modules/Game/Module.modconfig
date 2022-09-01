@@ -1,0 +1,11 @@
+name: Game
+guid: a642641d-079e-4032-b71d-405c9c093daa
+description: A prototype of a strategy game
+version: 1.0.0
+dependencies:
+    - module: Core
+      version: 1.0.0
+    - module: Renderer
+      version: 1.0.0
+    - module: Physics
+      version: 1.0.0

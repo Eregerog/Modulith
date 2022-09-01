@@ -1,0 +1,8 @@
+info:
+    name: Editor
+    guid: 427aeb70-b246-40ab-9802-280e3b997781
+    description: Tools for module creation
+    version: 1.0.0
+    dependencies:
+        - module: Renderer
+          version: 1.0.0

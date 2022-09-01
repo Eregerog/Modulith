@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Mario" type="CMakeRunConfiguration" factoryName="Application" folderName="Modules" WORKING_DIR="file://$PROJECT_DIR$/build" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Modulith" TARGET_NAME="Mario" CONFIG_NAME="Debug" RUN_PATH="$PROJECT_DIR$/build/ModulithRuntime.exe">
+    <method v="2">
+      <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+    </method>
+  </configuration>
+</component>

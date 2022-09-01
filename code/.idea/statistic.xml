@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Statistic">
+    <option name="separateTabsFileTypes" value="h;cpp" />
+    <option name="excludedDirectories">
+      <list>
+        <option value="$PROJECT_DIR$/extern" />
+        <option value="$PROJECT_DIR$/cmake-build-debug" />
+        <option value="$PROJECT_DIR$/cmake-build-release" />
+        <option value="$PROJECT_DIR$/cmake-build-relwithdebinfo" />
+        <option value="$PROJECT_DIR$/cmake-build-visualstudio" />
+        <option value="$PROJECT_DIR$/build" />
+        <option value="$PROJECT_DIR$/.idea" />
+        <option value="$PROJECT_DIR$/prebuilt" />
+      </list>
+    </option>
+  </component>
+</project>

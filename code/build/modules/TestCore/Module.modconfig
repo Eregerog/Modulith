@@ -1,0 +1,10 @@
+name: TestCore
+guid: 0e3ff8f4-1d23-4f9b-bd92-1fc6d9ce185f
+description: Enter a description here...
+authors: ""
+version: 1.0.0
+initializeFunctionOverride: ""
+shutdownFunctionOverride: ""
+dependencies:
+  - module: Core
+    version: 1.0.0

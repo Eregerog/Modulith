@@ -1,0 +1,7 @@
+name: Physics
+guid: 9fca42c8-04fa-4672-ba05-44fb25c45623
+description: A PhysX based physics implementation
+version: 1.0.0
+dependencies:
+    - module: Core
+      version: 1.0.0

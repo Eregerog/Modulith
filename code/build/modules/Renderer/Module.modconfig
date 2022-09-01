@@ -1,0 +1,7 @@
+name: Renderer
+guid: 82a20654-6c1a-47d5-bc6c-3a0c01085e3d
+description: A simple system that uses the engine's render commands
+version: 1.0.0
+dependencies:
+    - module: Core
+      version: 1.0.0

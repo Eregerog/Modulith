@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="ModulithEngineDocs" type="CMakeRunConfiguration" factoryName="Application" folderName="Engine" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Modulith" TARGET_NAME="ModulithEngineDocs" CONFIG_NAME="Debug">
+    <method v="2">
+      <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      <option name="LaunchBrowser.Before.Run" browser="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" url="http://localhost:63342/Modulith/build/docs/html/index.html" />
+    </method>
+  </configuration>
+</component>

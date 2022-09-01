@@ -1,0 +1,27 @@
+#pragma once
+
+#include "$$ModuleName$$Module.h"
+
+// TODO for User: Don't forget to manually register this system in the $$ModuleName$$Module.cpp file
+
+class $$ModuleNameCaps$$_API $$SystemName$$ : public modulith::System {
+public:
+    $$SystemName$$() : modulith::System("$$SystemName$$") {}
+
+    $$BeginIf_OnInitialize$$
+    void OnInitialize() override;
+
+    $$EndIf_OnInitialize$$
+    $$BeginIf_OnUpdate$$
+    void OnUpdate(float deltaTime) override;
+
+    $$EndIf_OnUpdate$$
+    $$BeginIf_OnImGui$$
+    void OnImGui(float deltaTime) override;
+
+    $$EndIf_OnImGui$$
+    $$BeginIf_OnShutdown$$
+    void OnShutdown() override;
+
+    $$EndIf_OnShutdown$$
+};

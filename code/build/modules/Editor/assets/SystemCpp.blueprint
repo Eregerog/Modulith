@@ -1,0 +1,32 @@
+#pragma once
+
+#include "$$SystemName$$.h"
+
+using namespace modulith;
+
+// TODO for User: Don't forget to manually register this system in the $$ModuleName$$Module.cpp file
+
+$$BeginIf_OnInitialize$$
+void $$SystemName$$::OnInitialize() {
+    // Called once when the system is started, should be used for initialization logic
+}
+
+$$EndIf_OnInitialize$$
+$$BeginIf_OnUpdate$$
+void $$SystemName$$::OnUpdate(float deltaTime) {
+    // Called every frame
+}
+
+$$EndIf_OnUpdate$$
+$$BeginIf_OnImGui$$
+void $$SystemName$$::OnImGui(float deltaTime) {
+    // Called every frame that ImGui should be rendered
+}
+
+$$EndIf_OnImGui$$
+$$BeginIf_OnShutdown$$
+void $$SystemName$$::OnShutdown() {
+    // Called once when the system is shut down, should be used for shutdown logic
+}
+
+$$EndIf_OnShutdown$$
