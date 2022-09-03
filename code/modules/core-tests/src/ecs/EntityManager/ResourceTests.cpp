@@ -5,7 +5,7 @@
 
 
 #include "Core.h"
-#include "catch/catch.hpp"
+#include "catch.hpp"
 #include "../ECSTestUtils.h"
 #include <ecs/EntityManager.h>
 

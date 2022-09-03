@@ -4,7 +4,7 @@
  */
 
 
-#include "catch/catch.hpp"
+#include "catch.hpp"
 
 #define MODU_THROW_ON_ASSERTS
 

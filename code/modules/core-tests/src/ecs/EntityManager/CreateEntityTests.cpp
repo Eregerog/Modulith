@@ -5,7 +5,7 @@
 
 #include "../ECSTestUtils.h"
 #include <ECS/EntityManager.h>
-#include "catch/catch.hpp"
+#include "catch.hpp"
 
 SCENARIO("Entities can be created using CreateEntity", "[ECS]") {
     GIVEN("An entity manager") {

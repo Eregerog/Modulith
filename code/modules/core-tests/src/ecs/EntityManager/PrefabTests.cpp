@@ -3,7 +3,7 @@
  * \author Daniel Götz
  */
 
-#include "catch/catch.hpp"
+#include "catch.hpp"
 #include "../ECSTestUtils.h"
 #include <ecs/EntityManager.h>
 #include "ecs/Prefab.h"
