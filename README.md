@@ -1,17 +1,12 @@
 # **Modulith**
 
-## Bachelor's Thesis Engine Repository
-
-In this repository the Game Engine 'Modulith' is developed for the Bachelor's Thesis 'A Low-Level Modular Game Engine for Component-Driven Game Development and Modding'.
-
-Start Date: 16.07.2020
-End Date: 31.09.2020
+We present the Game Engine Modulith, A Low-Level Modular Game Engine for Component-Driven Game Development and Modding.
 
 ## Abstract
 
 Modulith is a general-purpose game engine that is modular on a low-level. 
-Additional features and code is separated into modules, which can be loaded at runtime without having to re-compile the engine.
-This allows the engine to be used for component driven game development and modding.
+Features and code are separated into modules which can be loaded at runtime without having to re-compile the engine.
+This allows the engine to be used for component-driven game development and modding.
 
 ## How to clone the repository
 
